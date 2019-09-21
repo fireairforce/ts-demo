@@ -6,6 +6,7 @@ import { key } from "../secret";
 const command = commander
   .version("0.1.0")
   .option("-c --city [name]", "Add city name")
+  .description("天气预报应用")
   .parse(process.argv);
 
 if (process.argv.slice(3).length === 0) {
@@ -68,6 +69,4 @@ getWeather(command.city);
 //   command.outputHelp();
 // }
 // console.log(command.city);
-// yarn ts-node src/index.ts -h
-
-// https://restapi.amap.com/v3/weather/weatherInfo?key=13cdb0fe9d935c3eacf36545ad5eba6d&city=成都
+// yarn ts-node src/index.ts
