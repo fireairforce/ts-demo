@@ -7,7 +7,7 @@
   },
   "husky":{
     "hooks":{
-      "pre-commit":"yarn tslint -c tslint.json './**/*.ts'"    
+      "pre-commit":"yarn tslint -c tslint.json './**/*.ts'"
     }
   }
 }
