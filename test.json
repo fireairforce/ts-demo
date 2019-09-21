@@ -1,0 +1,19 @@
+{
+    "status": "1",
+    "count": "1",
+    "info": "OK",
+    "infocode": "10000",
+    "lives": [
+        {
+            "province": "四川",
+            "city": "成都市",
+            "adcode": "510100",
+            "weather": "晴",
+            "temperature": "27",
+            "winddirection": "东",
+            "windpower": "≤3",
+            "humidity": "43",
+            "reporttime": "2019-09-21 14:51:37"
+        }
+    ]
+}
