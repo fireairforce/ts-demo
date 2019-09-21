@@ -1,6 +1,6 @@
 // console.log(`Hello typescript`);
 
-console.log("qaq");
+// console.log("qaq");
 
-console.log(`hhh`);
+// console.log(`hhh`);
 
