@@ -6,6 +6,8 @@
     "typescript": "^3.6.3"
   },
   "husky":{
-    "pre-commit":"yarn tslint -c tslint.json './**/*.ts'"
+    "hooks":{
+      "pre-commit":"yarn tslint -c tslint.json './**/*.ts'"    
+    }
   }
 }
