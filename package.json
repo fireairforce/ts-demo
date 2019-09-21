@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "husky":{
+    "pre-commit":"yarn tslint -c tslint.json './**/*.ts'"
+  }
+}
