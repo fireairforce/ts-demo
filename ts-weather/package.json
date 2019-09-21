@@ -1,0 +1,19 @@
+{
+  "name": "ts-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
